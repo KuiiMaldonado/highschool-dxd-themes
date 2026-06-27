@@ -1,0 +1,72 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Crimson Gremory",
+  "type": "dark",
+
+  "colors": {
+    "editor.background": "#14121A",
+    "editor.foreground": "#ECE7F2",
+
+    "editorCursor.foreground": "#FF5370",
+
+    "editor.lineHighlightBackground": "#2A2238",
+
+    "editor.selectionBackground": "#5B2A4680",
+
+    "activityBar.background": "#1C1725",
+    "activityBar.foreground": "#FF5370",
+
+    "sideBar.background": "#191622",
+    "sideBar.foreground": "#ECE7F2",
+
+    "statusBar.background": "#20182B",
+    "statusBar.foreground": "#ECE7F2"
+  },
+
+  "tokenColors": [
+    {
+      "scope": [
+        "keyword",
+        "storage"
+      ],
+      "settings": {
+        "foreground": "#FF5370",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "string"
+      ],
+      "settings": {
+        "foreground": "#F8C86E"
+      }
+    },
+    {
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+        "foreground": "#807891",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    }
+  ]
+}

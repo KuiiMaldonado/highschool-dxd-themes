@@ -1,0 +1,41 @@
+{
+  "name": "highschool-dxd-inspired-theme-pack",
+  "displayName": "Highschool DxD Inspired Theme Pack",
+  "description": "A collection of dark VS Code themes inspired by gothic fantasy aesthetics.",
+  "version": "0.1.0",
+  "publisher": "Cuitlahuac Maldonado",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KuiiMaldonado/highschool-dxd-themes.git"
+  },
+  "keywords": [
+    "theme",
+    "dark-theme",
+    "anime-inspired",
+    "gothic",
+    "fantasy",
+    "anime",
+    "highschool-dxd",
+    "rias-gremory"
+  ],
+  "homepage": "https://github.com/KuiiMaldonado/highschool-dxd-themes",
+  "bugs": {
+    "url": "https://github.com/KuiiMaldonado/highschool-dxd-themes/issues"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Crimson Gremory",
+        "uiTheme": "vs-dark",
+        "path": "./themes/CrimsonGremory-color-theme.json"
+      }
+    ]
+  }
+}
